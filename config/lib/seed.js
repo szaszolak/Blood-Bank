@@ -57,7 +57,7 @@ function reportSuccess (password) {
   return function (user) {
     return new Promise(function (resolve, reject) {
       if (seedOptions.logResults) {
-        console.log(chalk.bold.red('Database Seeding:\t\t\tLocal ' + user.username + ' added with password set to ' + password));
+        console.log(chalk.bold.red('Database Seeding:\t\t\tLocal ' + user.username + ' added with password set to ZAQ!2wsxcd')); // +  password));
       }
       resolve();
     });
@@ -71,7 +71,7 @@ function seedTheUser (user) {
 
       var User = mongoose.model('User');
       // set the new password
-      user.password = password;
+      user.password = 'ZAQ!2wsxcd'; // password;
 
       if (user.username === seedOptions.seedAdmin.username && process.env.NODE_ENV === 'production') {
         checkUserNotExists(user)

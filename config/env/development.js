@@ -93,6 +93,7 @@ module.exports = {
         username: process.env.MONGO_SEED_ADMIN_USERNAME || 'admin',
         provider: 'local',
         email: process.env.MONGO_SEED_ADMIN_EMAIL || 'admin@localhost.com',
+        password: "ZAQ!2wsxCD",
         firstName: 'Admin',
         lastName: 'Local',
         displayName: 'Admin Local',

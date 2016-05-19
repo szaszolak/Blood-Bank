@@ -43,6 +43,7 @@ a:hover .header-profile-image {
 }
 
 .navbar-default {
+  background-image: none;
   background-color: #e74c3c;
   border-color: #c0392b;
 }
@@ -66,6 +67,7 @@ a:hover .header-profile-image {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
+  background-image: none;
   color: #ffbbbc;
   background-color: #c0392b;
 }
@@ -74,16 +76,20 @@ a:hover .header-profile-image {
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffbbbc;
   background-color: #c0392b;
+  background-image: none;
 }
 .navbar-default .navbar-toggle {
   border-color: #c0392b;
+  background-image: none;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #c0392b;
+  background-image: none;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ecf0f1;
+  background-image: none;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -109,5 +115,6 @@ a:hover .header-profile-image {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffbbbc;
     background-color: #c0392b;
+    background-image: none;
   }
 }
